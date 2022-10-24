@@ -4,3 +4,57 @@ This repository contains the notebooks for the Data Engineering course.
 | Lab <br /> # | Topic | Lab <br /> Notebook | Exercise <br /> Solutions Notebook |
 | --- | ----------- | ----- |----- |
 | 1 | Explore Your Data| [Lab 1](https://github.com/Medoalmasry/Data-Engineering-W22/blob/main/Lab1/Lab_1.ipynb)  <br /> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/guc-met/DE-W22/blob/main/Lab1/Lab_1.ipynb)|
+
+
+## Prerequisites
+This repository requires that you have:-
+* [Python3+](https://www.python.org/downloads/)
+* [Numpy](https://numpy.org/install/)
+* [Matplotlib](https://matplotlib.org/users/installing.html)
+* [Seaborn](https://pypi.org/project/seaborn/)
+* [Jupyter Notebook](https://jupyter.org/install)
+
+### Installation of Prerequisites
+#### Easy way (More HD space, less hassle)
+Install [Anaconda](https://www.anaconda.com/products/individual) then just run Jupyter.
+
+#### Hard way (Less HD space, more hassle)
+Install [Python3+](https://www.python.org/downloads/) 
+
+Make sure Python and pip are added to environment variables
+![Python](https://bitsilla.com/wiki/lib/exe/fetch.php?w=600&tok=5a7732&media=images:py_setting_win.png)
+
+From your Linux, Mac, or Windows terminal, verify that both are installed correctly.
+```sh
+$ python --version
+$ pip --version
+```
+
+Using the same terminal install numpy, matplotlib, pillow and notebook
+```sh
+$ pip install numpy matplotlib pillow notebook
+```
+
+#### Alternative way (Cloud but you have to upload the data)
+Create a New Notebook from here
+[Google Colab](https://colab.research.google.com)
+
+Upload the Data.zip folder
+```
+from google.colab import files
+uploaded = files.upload()
+```
+
+Extract the zipped folder into the cloud
+```
+!unzip [foldername].zip
+```
+
+## How To Run
+From your terminal, run this command then navigate to the Assignment.ipynb file
+```
+jupyter notebook
+```
+
+## License
+MIT License
