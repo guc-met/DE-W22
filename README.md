@@ -37,7 +37,7 @@ $ pip install numpy matplotlib pillow notebook
 ```
 
 #### Alternative way (Cloud but you have to upload the data)
-Click on the (https://colab.research.google.com/assets/colab-badge.svg) next to the notebook you would like to exercise.
+Click on the ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg) next to the notebook you would like to exercise.
 
 Upload the data needed as Data.zip using the following command
 ```
