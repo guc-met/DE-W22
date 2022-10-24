@@ -52,7 +52,7 @@ Extract the zipped folder into the cloud
 ```
 
 ## How To Run
-From your terminal, run this command then navigate to the Assignment.ipynb file
+From your terminal, run this command then navigate to the '.ipynb' file
 ```
 jupyter notebook
 ```
