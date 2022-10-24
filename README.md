@@ -37,22 +37,21 @@ $ pip install numpy matplotlib pillow notebook
 ```
 
 #### Alternative way (Cloud but you have to upload the data)
-Click on the notebook you would like to exercise from the table above.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+Click on the [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) next to the notebook you would like to exercise.
 
-Upload the Data.zip folder
+Upload the data needed as Data.zip using the following command
 ```
 from google.colab import files
 uploaded = files.upload()
 ```
 
-Extract the zipped folder into the cloud
+Extract the zipped folder into the cloud using the following command
 ```
 !unzip [foldername].zip
 ```
 
 ## How To Run
-From your terminal, run this command then navigate to the '.ipynb' file
+From your terminal, run this command then navigate to the *.ipynb* file you would like to exercise
 ```
 jupyter notebook
 ```
